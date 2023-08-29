@@ -1,0 +1,43 @@
+.container {
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+}
+.container__title {
+    text-shadow: 0.15em 0.15em #9999;
+    font-size: 3rem;
+}
+.container__phrase{
+    text-align: center;
+    width: 100%;
+    max-width: 30em;
+    background-color: rgba(226, 202, 202, 0.788);
+    padding: 2em 2em;
+    line-height: 1.4;
+    border-radius: 2em;
+    font-size: 1.4em;
+    text-shadow: 0.15em 0.15em #9999;
+}
+.container__author{
+       margin-top: 3em;
+}
+.container__btn{
+    padding: 0.8em 1.2em;
+    border-radius: 1em;
+    font-size: 1.2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 200ms ease,
+                transform 200ms ease,
+                box-shadow 200ms ease;
+}
+.container__btn:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 0 0 0.8em #0005;
+}
